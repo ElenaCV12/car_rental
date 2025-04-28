@@ -128,7 +128,10 @@ Widget carDetailsCard({required Car car}) {
         ),
       ),
       //Aqui
-      Image.asset('assets/white_car.png'),
+      Positioned(
+        top: 50,
+        right: 20,
+        child: Image.asset('assets/white_car.png')),
       ],
     ),
   );
